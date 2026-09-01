@@ -1,0 +1,839 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auto Rent</title>
+    <script type="module" crossorigin src="./assets/main-C89li2VL.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/main-DA4oB1hS.css">
+  </head>
+
+  <body class="bg-[#f8f8f8] overflow-x-hidden">
+    <!-- Hero -->
+    <section class="relative w-full h-[650px] max-[1400px]:h-[600px] max-[1200px]:h-[550px] max-[992px]:h-[500px] flex justify-center">
+      <!-- Hero Image -->
+      <div class="relative w-[94%] h-full overflow-hidden max-[1400px]:w-[95%] max-[1200px]:w-[96%] max-[992px]:w-[97%]">
+        <img
+          src="./assets/img-1-BnSiOsdy.jpg"
+          class="w-full h-full object-cover rounded-b-[25px]"
+          alt=""
+        />
+
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black/45"></div>
+
+        <!-- Header -->
+        <header class="absolute top-5 left-1/2 -translate-x-1/2 w-[92%] z-50">
+          <div
+            class="h-[72px] max-[1200px]:h-[66px]
+                 max-[992px]:h-[60px] bg-white rounded-[22px] shadow-lg flex items-center justify-between px-10 max-[1200px]:px-6
+                    max-[992px]:px-4"
+          >
+            <!-- Logo -->
+            <img src="./assets/Logo-DmpMmtAr.png" class="w-[95px] max-[1200px]:w-[85px]
+                max-[992px]:w-[75px] shrink-0" alt="" />
+
+            <!-- Menu -->
+            <ul class="flex items-center gap-9 max-[1400px]:gap-6 max-[1200px]:gap-4 max-[992px]:gap-2 text-[15px] max-[1200px]:text-[14px] max-[992px]:text-[13px] font-medium whitespace-nowrap">
+              <li class="hover:text-yellow-500 duration-300 cursor-pointer">
+                رزرو خودرو
+              </li>
+
+              <li class="hover:text-yellow-500 duration-300 cursor-pointer">
+                خدمات ما
+              </li>
+
+              <li class="hover:text-yellow-500 duration-300 cursor-pointer">
+                بلاگ
+              </li>
+
+              <li class="hover:text-yellow-500 duration-300 cursor-pointer">
+                درباره ما
+              </li>
+
+              <li class="hover:text-yellow-500 duration-300 cursor-pointer">
+                تماس با ما
+              </li>
+            </ul>
+
+            <!-- Left -->
+            <div class="flex items-center gap-6 max-[1200px]:gap-4 max-[992px]:gap-2 shrink-0">
+              <!-- Search -->
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6 cursor-pointer"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 21l-4.35-4.35M10.5 18a7.5 7.5 0 100-15 7.5 7.5 0 000 15z"
+                />
+              </svg>
+
+              <!-- Button -->
+
+              <button
+                class="bg-[#2457ff] text-white px-7 max-[1200px]:px-5 max-[992px]:px-3 py-2.5 max-[992px]:py-2 rounded-xl text-[16px] max-[1200px]:text-[14px] max-[992px]:text-[13px] whitespace-nowrap hover:bg-blue-700 duration-300"
+              >
+                ورود / ثبت نام
+              </button>
+            </div>
+          </div>
+        </header>
+
+        <!-- Hero Text -->
+
+        <div
+          class="absolute inset-0 flex flex-col justify-center items-center text-white"
+        >
+          <h1 class="text-[64px] font-extrabold text-[#f4b400]">مقالات </h1>
+
+          <div class="flex items-center gap-3 mt-3 text-xl">
+            <span>اتورنت</span>
+
+            <span>></span>
+
+            <span>مقالات
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Main -->
+
+    <main class="w-full flex justify-center bg-[#f8f8f8] py-16">
+      <div class="w-[95%] max-w-[1800px] flex flex-row-reverse gap-10 max-[1200px]:gap-7 max-[992px]:flex-col max-[992px]:gap-8">
+        <!-- Sidebar -->
+
+        <aside class="w-[360px] flex flex-col gap-6 max-[1400px]:w-[320px] max-[1200px]:w-[290px] max-[992px]:w-full">
+          <!-- Search Box -->
+
+          <div
+            class="bg-white rounded-[22
+
+
+px] h-[66px] shadow-sm flex items-center px-6 max-[1200px]:px-5 max-[768px]:h-[60px] max-[768px]:px-4"
+          >
+            <!-- Icon -->
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-5 h-5 text-gray-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-4.35-4.35M10.5 18a7.5 7.5 0 100-15 7.5 7.5 0 000 15"
+              />
+            </svg>
+
+            <input
+              type="text"
+              placeholder="جستجو در سایت اجاره خودرو اتورنت"
+              class="flex-1 outline-none px-4 text-[14px] placeholder:text-gray-400 bg-transparent"
+            />
+          </div>
+          <div class="bg-white rounded-[25px] shadow-sm px-8 py-7">
+            <div class="mb-8 text-right">
+              <h2 class="text-[34px] max-[1400px]:text-[30px] max-[1200px]:text-[27px] max-[768px]:text-[24px] font-bold">آخرین مقالات</h2>
+
+              <div class="w-20 h-1 bg-[#f4b400] rounded-full mt-2"></div>
+            </div>
+            <div
+              class="flex items-center justify-between py-6 border-b border-gray-200"
+            >
+              <div class="w-[90px] h-[70px] max-[1200px]:w-[80px] max-[1200px]:h-[65px] max-[768px]:w-[75px] max-[768px]:h-[60px] overflow-hidden rounded-lg overflow-hidden rounded-lg">
+                <img
+                  src="./assets/img-2-BYeQHHie.jpg"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+
+              <div class="flex-1 mr-5">
+                <h3 class="text-[16px] leading-8 max-[1200px]:text-[15px] max-[768px]:text-[14px] max-[768px]:leading-7">نگاهی به Lexus NX</h3>
+
+                <div
+                  class="flex items-center gap-4 text-gray-400 text-[13px] mt-2"
+                >
+                  <span>۲۱,۵۹۷</span>
+
+                  <span>۶ دقیقه</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex items-center justify-between py-6 border-b border-gray-200"
+            >
+              <div class="w-[90px] h-[70px] max-[1200px]:w-[80px] max-[1200px]:h-[65px] max-[768px]:w-[75px] max-[768px]:h-[60px] overflow-hidden rounded-lg overflow-hidden rounded-lg">
+                <img
+                  src="./assets/img-3-DDb4-yqw.jpg"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+
+              <div class="flex-1 mr-5">
+                <h3 class="text-[16px] leading-8 max-[1200px]:text-[15px] max-[768px]:text-[14px] max-[768px]:leading-7">
+                  رونمایی از Lamborgini Urus
+                </h3>
+
+                <div
+                  class="flex items-center gap-4 text-gray-400 text-[13px] mt-2"
+                >
+                  <span>۲۱,۵۹۷</span>
+
+                  <span>۶ دقیقه</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex items-center justify-between py-6 border-b border-gray-200"
+            >
+              <div class="w-[90px] h-[70px] max-[1200px]:w-[80px] max-[1200px]:h-[65px] max-[768px]:w-[75px] max-[768px]:h-[60px] overflow-hidden rounded-lg overflow-hidden rounded-lg">
+                <img
+                  src="./assets/img-4-DaniuYSn.jpg"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+
+              <div class="flex-1 mr-5">
+                <h3 class="text-[16px] leading-8 max-[1200px]:text-[15px] max-[768px]:text-[14px] max-[768px]:leading-7">
+                  بنتلی Bentayga زیر تیغ تیونینگ منصوری
+                </h3>
+
+                <div
+                  class="flex items-center gap-4 text-gray-400 text-[13px] mt-2"
+                >
+                  <span>۲۱,۵۹۷</span>
+
+                  <span>۶ دقیقه</span>
+                </div>
+              </div>
+            </div>
+            ...
+            <div
+              class="flex items-cent
+
+
+er justify-between py-6 border-b border-gray-200"
+            >
+              <div class="w-[90px] h-[70px] max-[1200px]:w-[80px] max-[1200px]:h-[65px] max-[768px]:w-[75px] max-[768px]:h-[60px] overflow-hidden rounded-lg overflow-hidden rounded-lg">
+                <img
+                  src="./assets/img-5-DpfJn58A.jpg"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+
+              <div class="flex-1 mr-5">
+                <h3 class="text-[16px] leading-8 max-[1200px]:text-[15px] max-[768px]:text-[14px] max-[768px]:leading-7">
+                  رونمایی از فراری Roma به تاخیر افتاد
+                </h3>
+
+                <div
+                  class="flex items-center gap-4 text-gray-400 text-[13px] mt-2"
+                >
+                  <span>۲۱,۵۹۷</span>
+
+                  <span>۶ دقیقه</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tags -->
+
+          <div class="bg-white rounded-[25px] shadow-sm px-8 py-7">
+            <!-- Title -->
+
+            <div class="mb-8 text-right">
+              <h2 class="text-[34px] max-[1400px]:text-[30px] max-[1200px]:text-[27px] max-[768px]:text-[24px] font-bold">برچسب‌ها</h2>
+
+              <div class="w-20 h-1 bg-[#f4b400] rounded-full mt-2"></div>
+            </div>
+
+            <!-- Tags -->
+
+            <div class="flex flex-wrap justify-end gap-3">
+              <span
+                class="bg-[#f5f5f5] rounded-full px-5 py-2 text-[14px] text-[#666] max-[1200px]:px-4 max-[1200px]:text-[13px] max-[768px]:px-3 max-[768px]:py-1.5 max-[768px]:text-[12px] cursor-pointer hover:bg-[#f4b400] hover:text-white duration-300"
+              >
+                اجاره خودرو
+              </span>
+
+              <span
+                class="bg-[#f5f5f5] rounded-full px-5 py-2 text-[14px] text-[#666] max-[1200px]:px-4 max-[1200px]:text-[13px] max-[768px]:px-3 max-[768px]:py-1.5 max-[768px]:text-[12px] cursor-pointer hover:bg-[#f4b400] hover:text-white duration-300"
+              >
+                مرسدس بنز
+              </span>
+
+              <span
+                class="bg-[#f5f5f5] rounded-full px-5 py-2 text-[14px] text-[#666] max-[1200px]:px-4 max-[1200px]:text-[13px] max-[768px]:px-3 max-[768px]:py-1.5 max-[768px]:text-[12px] cursor-pointer hover:bg-[#f4b400] hover:text-white duration-300"
+              >
+                ون
+              </span>
+
+              <span
+                class="bg-[#f5f5f5] rounded-full px-5 py-2 text-[14px] text-[#666] max-[1200px]:px-4 max-[1200px]:text-[13px] max-[768px]:px-3 max-[768px]:py-1.5 max-[768px]:text-[12px] cursor-pointer hover:bg-[#f4b400] hover:text-white duration-300"
+              >
+                بدون راننده
+              </span>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Articles -->
+
+        <section class="flex-1">
+          <div class="grid grid-cols-2 gap-8">
+            <!-- Card 1 -->
+
+            <div
+              class="bg-white rounded-[22px] overflow-hidden shadow-sm hover:shadow-lg duration-300"
+            >
+              <!-- Image -->
+
+              <div class="p-5 pb-0">
+                <img
+                  src="./assets/img-1-BnSiOsdy.jpg"
+                  class="w-full h-[230px] object-cover rounded-[18px]"
+                  alt=""
+                />
+              </div>
+
+              <!-- Content -->
+              <div class="p-6 text-right">
+                <!-- Title -->
+
+                <h3
+                  class="text-[20px] font-bold leading-9 hover:text-[#f4b400] duration-300 cursor-pointer"
+                >
+                  روش های مختلف برای اجاره خودرو
+                </h3>
+
+                <!-- Description -->
+
+                <p class="mt-4 text-[14px] leading-8 text-[#7d7d7d]">
+                  امروزه با تغییراتی که در سبک زندگی مردم و شرایط اقتصادی جوامع
+                  به وجود آمده است نیازهای افراد و نحوه دسترسی به آنها نیز دچار
+                  تحولاتی شده است.
+                </p>
+
+                <!-- Footer -->
+
+                <div
+                  class="flex items-center gap-6
+
+
+mt-6 text-[13px] text-gray-400"
+                >
+                  <!-- Time -->
+
+                  <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4">...</svg>
+
+                    <span>۶ دقیقه</span>
+                  </div>
+
+                  <!-- Views -->
+
+                  <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4">...</svg>
+
+                    <span>۱۲۳۷</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+
+            <div
+              class="bg-white rounded-[22px] overflow-hidden shadow-sm hover:shadow-lg duration-300"
+            >
+              <!-- Image -->
+
+              <div class="p-5 pb-0">
+                <img
+                  src="./assets/img-6-BoJovBvu.jpg"
+                  class="w-full h-[230px] object-cover rounded-[18px]"
+                  alt=""
+                />
+              </div>
+
+              <!-- Content -->
+              <div class="p-6 text-right">
+                <!-- Title -->
+
+                <h3
+                  class="text-[20px] font-bold leading-9 hover:text-[#f4b400] duration-300 cursor-pointer"
+                >
+                  روش های مختلف برای اجاره خودرو
+                </h3>
+
+                <!-- Description -->
+
+                <p class="mt-4 text-[14px] leading-8 text-[#7d7d7d]">
+                  امروزه با تغییراتی که در سبک زندگی مردم و شرایط اقتصادی جوامع
+                  به وجود آمده است نیازهای افراد و نحوه دسترسی به آنها نیز دچار
+                  تحولاتی شده است.
+                </p>
+
+                <!-- Footer -->
+
+                <div
+                  class="flex items-center gap-6 mt-6 text-[13px] text-gray-400"
+                >
+                  <!-- Time -->
+
+                  <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4">...</svg>
+
+                    <span>۶ دقیقه</span>
+                  </div>
+
+                  <!-- Views -->
+
+                  <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4">...</svg>
+
+                    <span>۱۲۳۷</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+
+            <div
+              class="bg-white rounded-[22px] overflow-hidden shadow-sm hover:shadow-lg duration-300"
+            >
+              <!-- Image -->
+
+              <div class="p-5 pb-0">
+                <img
+                  src="./assets/img-7-akmzW3Rv.jpg"
+                  class="w-full h-[230px] object-cover rounded-[18px]"
+                  alt=""
+                />
+              </div>
+
+              <!-- Content -->
+              <div class="p-6 text-right">
+                <!-- Title -->
+
+                <h3
+                  class="text-[20px] font-bold leading-9 hover:text-[#f4b400] duration-300 cursor-pointer"
+                >
+                  روش های مختلف برای اجاره خودرو
+                </h3>
+
+                <!-- Description -->
+
+                <p class="mt-4 text-[14px] leading-8 text-[#7d7d7d]">
+                  امروزه با تغییراتی که در سبک زندگی مردم و شرایط اقتصادی جوامع
+                  به وجود آمده است نیازهای افراد و نحوه دسترسی به آنها نیز دچار
+                  تحولاتی شده است.
+                </p>
+
+                <!-- Footer -->
+
+                <div
+                  class="flex items-center gap-6 mt-6 text-[13px] text-gray-400"
+                >
+                  <!-- Time -->
+
+                  <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4">...</svg>
+
+                    <span>۶ دقیقه</span>
+                  </div>
+
+                  <!-- Views -->
+
+                  <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4">...</svg>
+
+                    <span>۱۲۳۷</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+
+            <div
+              class="bg-white rounded-[22px] overflow-hidden shadow-sm hover:shadow-lg duration-300"
+
+
+>
+              <!-- Image -->
+
+              <div class="p-5 pb-0">
+                <img
+                  src="./assets/img-8--Svxvcgu.jpg"
+                  class="w-full h-[230px] object-cover rounded-[18px]"
+                  alt=""
+                />
+              </div>
+
+              <!-- Content -->
+              <div class="p-6 text-right">
+                <!-- Title -->
+
+                <h3
+                  class="text-[20px] font-bold leading-9 hover:text-[#f4b400] duration-300 cursor-pointer"
+                >
+                  روش های مختلف برای اجاره خودرو
+                </h3>
+
+                <!-- Description -->
+
+                <p class="mt-4 text-[14px] leading-8 text-[#7d7d7d]">
+                  امروزه با تغییراتی که در سبک زندگی مردم و شرایط اقتصادی جوامع
+                  به وجود آمده است نیازهای افراد و نحوه دسترسی به آنها نیز دچار
+                  تحولاتی شده است.
+                </p>
+
+                <!-- Footer -->
+
+                <div
+                  class="flex items-center gap-6 mt-6 text-[13px] text-gray-400"
+                >
+                  <!-- Time -->
+
+                  <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4">...</svg>
+
+                    <span>۶ دقیقه</span>
+                  </div>
+
+                  <!-- Views -->
+
+                  <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4">...</svg>
+
+                    <span>۱۲۳۷</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+
+            <div
+              class="bg-white rounded-[22px] overflow-hidden shadow-sm hover:shadow-lg duration-300"
+            >
+              <!-- Image -->
+
+              <div class="p-5 pb-0">
+                <img
+                  src="./assets/img-9-fVbYHEd6.jpg"
+                  class="w-full h-[230px] object-cover rounded-[18px]"
+                  alt=""
+                />
+              </div>
+
+              <!-- Content -->
+              <div class="p-6 text-right">
+                <!-- Title -->
+
+                <h3
+                  class="text-[20px] font-bold leading-9 hover:text-[#f4b400] duration-300 cursor-pointer"
+                >
+                  روش های مختلف برای اجاره خودرو
+                </h3>
+
+                <!-- Description -->
+
+                <p class="mt-4 text-[14px] leading-8 text-[#7d7d7d]">
+                  امروزه با تغییراتی که در سبک زندگی مردم و شرایط اقتصادی جوامع
+                  به وجود آمده است نیازهای افراد و نحوه دسترسی به آنها نیز دچار
+                  تحولاتی شده است.
+                </p>
+
+                <!-- Footer -->
+
+                <div
+                  class="flex items-center gap-6 mt-6 text-[13px] text-gray-400"
+                >
+                  <!-- Time -->
+
+                  <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4">...</svg>
+
+                    <span>۶ دقیقه</span>
+                  </div>
+
+                  <!-- Views -->
+
+                  <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4">...</svg>
+
+                    <span>۱۲۳۷</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+
+            <div
+              class="bg-white rounded-[22px] overflow-hidden shadow-sm hover:shadow-lg duration-300"
+            >
+              <!-- Image -->
+
+              <div class="p-5 pb-0">
+                <img
+                  src="./assets/img-10-G9kOmdh9.jpg"
+                  class="w-full h-[230px] object-cover rounded-[18px]"
+                  alt=""
+                />
+              </div>
+
+              <!-- Content -->
+              <div class="p-6 text-right">
+                <!-- Title -->
+
+                <h3
+                  class="text-[20px] font-bold leading-9 hover:text-[#f4b400] duration-300 cursor-pointer"
+                >
+                  روش های مختلف برای اجاره خودرو
+                </h3>
+
+                <!-- Description -->
+
+                <p class="
+
+
+mt-4 text-[14px] leading-8 text-[#7d7d7d]">
+                  امروزه با تغییراتی که در سبک زندگی مردم و شرایط اقتصادی جوامع
+                  به وجود آمده است نیازهای افراد و نحوه دسترسی به آنها نیز دچار
+                  تحولاتی شده است.
+                </p>
+
+                <!-- Footer -->
+
+                <div
+                  class="flex items-center gap-6 mt-6 text-[13px] text-gray-400"
+                >
+                  <!-- Time -->
+
+                  <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4">...</svg>
+
+                    <span>۶ دقیقه</span>
+                  </div>
+
+                  <!-- Views -->
+
+                  <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4">...</svg>
+
+                    <span>۱۲۳۷</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    </section>
+</div>
+
+<!-- مشاهده همه -->
+
+<div class="w-[95%] max-w-[1800px] mx-auto mt-10 mb-16">
+
+    <div class="flex justify-start">
+
+        <a href="#"
+           class="flex items-center gap-2 text-[#2457ff] font-semibold text-[17px] px-160">
+
+            مشاهده همه
+
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 class="w-4 h-4"
+                 fill="none"
+                 viewBox="0 0 24 24"
+                 stroke="currentColor">
+
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"/>
+
+            </svg>
+
+        </a>
+
+    </div>
+
+</div>
+
+</main>
+
+<!-- Footer -->
+<footer class="w-full bg-[#f8f8f8]  pt-4 pb-16">
+
+  <div class="w-[92%] max-w-[1500px] mx-auto bg-[#3a3d44] rounded-[28px] px-10 pt-10 pb-8">
+
+    <!-- Contact Box -->
+    <div class="w-full border border-white/20 rounded-[18px] flex max-lg:flex-col items-center">
+
+      <!-- ارتباط با ما -->
+      <div class="w-1/3  max-lg:w-full flex items-center justify-center py-6">
+        <div class="flex items-center gap-5">
+
+          <div class="w-12 h-12 rounded-xl border border-white/20 flex items-center justify-center text-xl">
+            📞
+          </div>
+
+          <div class="text-right">
+            <h3 class="text-white font-bold">ارتباط با ما</h3>
+            <p class="text-gray-300 mt-2">۰۹۱۲-۱۲۲۶۴۵</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="w-px h-12 bg-white/20 max-lg:w-[85%] max-lg:h-px"></div>
+
+      <!-- ایمیل -->
+      <div class="w-1/3  max-lg:w-full flex items-center justify-center py-6">
+        <div class="flex items-center gap-5">
+
+          <div class="w-12 h-12 rounded-xl border border-white/20 flex items-center justify-center text-xl">
+            ✉️
+          </div>
+
+          <div class="text-right">
+            <h3 class="text-white font-bold">ایمیل</h3>
+            <p class="text-gray-300 mt-2">info@autorent.ir</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="w-px h-12 bg-white/20 max-lg:w-[85%] max-lg:h-px"></div>
+
+      <!-- آدرس -->
+      <div class="w-1/3  max-lg:w-full flex items-center justify-center py-6">
+        <div class="flex items-center gap-5">
+
+          <div class="w-12 h-12 rounded-xl border border-white/20 flex items-center justify-center text-xl">
+            📍
+          </div>
+
+          <div class="text-right">
+            <h3 class="text-white font-bold">آدرس</h3>
+            <p class="text-gray-300 mt-2">تهران، خیابان آزادی</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <!-- پایان Contact Box -->
+
+
+    <!-- Footer Content -->
+    <div class="mt-10 flex justify-between items-start gap-10 max-lg:flex-col">
+
+      <!-- Right -->
+      <div class="w-[40%] max-lg:w-full">
+
+    <div class="flex items-start gap-5 max-sm:flex-col max-sm:items-center">
+
+        <img
+            src="data:image/png;base64,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"
+            class="w-[120px] mt-1"
+            alt=""
+        >
+
+        <div>
+
+            <p class="text-[#d6d6d6]
+                      text-[15px]
+
+
+leading-[38px]
+                      text-justify max-sm:text-center">
+
+                اتورنت با رویکرد اعتماد به مشتری، با در اختیار داشتن بزرگترین ناوگان خودرویی متشکل از انواع خودروهای صفر کیلومتر اقتصادی تا تجاری در سراسر کشور، ایران آماده خدمت‌رسانی به مشتریان است.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+      <!-- Center -->
+      <div class="w-[22%] max-lg:w-full">
+
+    <ul class="space-y-6 text-[#d6d6d6] max-lg:text-center">
+      <li class="hover:text-[#f4b400] duration-300 cursor-pointer"> دسترسی آسان</li>
+
+        <li class="hover:text-[#f4b400] duration-300 cursor-pointer">سوالات متداول</li>
+
+        <li class="hover:text-[#f4b400] duration-300 cursor-pointer">تماس با ما</li>
+
+        <li class="hover:text-[#f4b400] duration-300 cursor-pointer">درباره ما</li>
+
+    </ul>
+      </div>
+
+      <!-- Left -->
+      <div class="w-[28%] max-lg:w-full">
+        <!-- Title -->
+    <h3 class="text-white text-[20px] font-bold mb-8 max-lg:text-center">
+        خبرنامه
+    </h3>
+    <!-- Newsletter -->
+    <div class="relative">
+
+        <input
+            type="email"
+            placeholder="ایمیل خود را وارد کنید"
+            class="w-full h-[56px] rounded-xl bg-[#4a4d55] border border-white/10 outline-none pr-5 pl-24 text-white placeholder:text-gray-400"
+        >
+
+        <button
+            class="absolute left-2 top-1/2 -translate-y-1/2 h-[42px] px-6 rounded-lg bg-[#f4b400] text-[#2d2d2d] font-bold hover:bg-yellow-500 duration-300"
+        >
+            ارسال
+        </button>
+      </div>
+
+    </div>
+  </div>
+  <!-- Divider -->
+
+<div class="w-full h-px bg-white/15 mt-10"></div>
+
+<!-- Copyright -->
+
+<div class="flex justify-center items-center gap-2 mt-7">
+
+    <span class="text-gray-400 text-lg">©️</span>
+
+    <p class="text-[#bdbdbd] text-[14px]">
+        تمامی حقوق این وبسایت متعلق به اتورنت می‌باشد.
+    </p>
+
+</div>
+    </footer>
+  </body>
+</html>
