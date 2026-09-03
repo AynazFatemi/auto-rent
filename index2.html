@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Auto Rent</title>
-  </head>
+</head>
 
   <body class="bg-[#f8f8f8] overflow-x-hidden">
     <!-- Hero -->
-    <section class="relative w-full h-[650px] max-[1400px]:h-[600px] max-[1200px]:h-[550px] max-[992px]:h-[500px] flex justify-center">
+    <section class="relative w-full h-[650px] max-[1400px]:h-150 max-[1200px]:h-[550px] max-[992px]:h-125 flex justify-center">
       <!-- Hero Image -->
       <div class="relative w-[94%] h-full overflow-hidden max-[1400px]:w-[95%] max-[1200px]:w-[96%] max-[992px]:w-[97%]">
         <img
@@ -23,8 +23,8 @@
         <!-- Header -->
         <header class="absolute top-5 left-1/2 -translate-x-1/2 w-[92%] z-50">
           <div
-            class="h-[72px] max-[1200px]:h-[66px]
-                 max-[992px]:h-[60px] bg-white rounded-[22px] shadow-lg flex items-center justify-between px-10 max-[1200px]:px-6
+            class="h-18 max-[1200px]:h-[66px]
+                 max-[992px]:h-15 bg-white rounded-[22px] shadow-lg flex items-center justify-between px-10 max-[1200px]:px-6
                     max-[992px]:px-4"
           >
             <!-- Logo -->
@@ -32,7 +32,7 @@
                 max-[992px]:w-[75px] shrink-0" alt="" />
 
             <!-- Menu -->
-            <ul class="flex items-center gap-9 max-[1400px]:gap-6 max-[1200px]:gap-4 max-[992px]:gap-2 text-[15px] max-[1200px]:text-[14px] max-[992px]:text-[13px] font-medium whitespace-nowrap">
+            <ul class="flex items-center gap-9 max-[1400px]:gap-6 max-[1200px]:gap-4 max-[992px]:gap-2 max-[767px]:hidden text-[15px] max-[1200px]:text-[14px] max-[992px]:text-[13px] font-medium whitespace-nowrap">
               <li class="hover:text-yellow-500 duration-300 cursor-pointer">
                 رزرو خودرو
               </li>
@@ -102,12 +102,12 @@
       </div>
     </section>
     <!-- Main -->
-<main class="w-[94%] max-[1400px]:w-[95%] max-[1200px]:w-[96%] max-[992px]:w-[97%] max-w-[1600px] mx-auto pt-8 pb-16">
+<main class="w-[94%] max-[1400px]:w-[95%] max-[1200px]:w-[96%] max-[992px]:w-[97%] max-w-400 mx-auto pt-8 pb-16">
 
-    <div class="flex gap-6 max-[1400px]:gap-5 max-[1200px]:gap-4 max-[992px]:gap-3">
+    <div class="flex gap-6 max-[1400px]:gap-5 max-[1200px]:gap-4 max-[992px]:gap-3 max-[991px]:flex-col">
 
         <!-- Sidebar (سمت راست) -->
-<aside class="w-[23%] max-[1400px]:w-[25%] max-[1200px]:w-[28%] max-[992px]:w-[30%] shrink-0">
+<aside class="w-[23%] max-[1400px]:w-[25%] max-[1200px]:w-[28%] max-[991px]:w-full shrink-0">
 
     <div class="bg-white border border-[#ececec] rounded-[22px] p-7 max-[1200px]:p
 
@@ -365,13 +365,13 @@
         <section class="flex-1">
 
             <!-- Top Bar -->
-            <div class="flex items-center gap-5 mb-8">
+            <div class="flex items-center gap-5 mb-8 max-[991px]:flex-col max-[991px]:gap-3">
 
                 <!-- تقویم قیمتی (وسط) -->
                 <!-- تقویم قیمتی -->
 <div
     class="flex-1
-           h-[56px]
+           h-14
            bg-white
            border
            border-[#d9d9d9]
@@ -405,8 +405,8 @@ lor">
 
                 <!-- مرتب سازی (چپ) -->
                 <div
-             class="w-[260px]
-             h-[56px]
+             class="w-65 max-[991px]:w-full
+             h-14
              bg-white
              border
              border-[#d9d9d9]
@@ -436,14 +436,14 @@ lor">
             </div>
 
             <!-- کارت‌ها -->
-            <div class="grid grid-cols-3 gap-5 max-[1400px]:gap-4 max-[1200px]:gap-3 max-[992px]:gap-2">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-[1400px]:gap-4 max-[1200px]:gap-3 max-[992px]:gap-2">
              <div class="bg-white border border-[#e7e7e7] rounded-[22px] max-[1200px]:rounded-[18px] max-[992px]:rounded-[16px] p-4 max-[1200px]:p-3 max-[992px]:p-2 flex flex-col h-full">
                 <!-- عکس -->
              <div class="border border-[#efefef] rounded-[16px] overflow-hidden">
             <img
             src="/src/images/car-1.jpg"
             alt=""
-            class="w-full h-[190px] max-[1400px]:h-[170px] max-[1200px]:h-[150px] max-[992px]:h-[130px] object-contain">
+            class="w-full h-[190px] max-[1400px]:h-[170px] max-[1200px]:h-[150px] max-[992px]:h-[130px] max-[767px]:h-[190px] object-contain">
             </div>
                <!-- نام خودرو -->
                <h3 class="text-[28px] max-[1400px]:text-[24px] max-[1200px]:text-[20px] max-[992px]:text-[17px]  font-bold text-[#3d3d3d] text-right mt-6">
@@ -513,7 +513,7 @@ lor">
 
        </div>
                <button
-    class="w-full h-[48px] max-[1200px]:h-[44px] max-[992px]:h-[40px] bg-[#2457FF] rounded-xl text-white font-bold text-[16px] max-[1200px]:text-[15px] max-[992px]:text-[13px] mt-auto hover:bg-[#1e4de0] transition duration-300">
+    class="w-full h-12 max-[1200px]:h-11 max-[992px]:h-10 bg-[#2457FF] rounded-xl text-white font-bold text-[16px] max-[1200px]:text-[15px] max-[992px]:text-[13px] mt-auto hover:bg-[#1e4de0] transition duration-300">
 
     درخواست رزرو
 
@@ -528,7 +528,7 @@ lor">
 
 s/car-3.jpg"
             alt=""
-            class="w-full h-[190px] max-[1400px]:h-[170px] max-[1200px]:h-[150px] max-[992px]:h-[130px] object-contain">
+            class="w-full h-[190px] max-[1400px]:h-[170px] max-[1200px]:h-[150px] max-[992px]:h-[130px] max-[767px]:h-[190px] object-contain">
             </div>
                <!-- نام خودرو -->
                <h3 class="text-[28px] max-[1400px]:text-[24px] max-[1200px]:text-[20px] max-[992px]:text-[17px] font-bold text-[#3d3d3d] text-right mt-6">
@@ -598,7 +598,7 @@ s/car-3.jpg"
 
        </div>
                <button
-    class="w-full h-[48px] max-[1200px]:h-[44px] max-[992px]:h-[40px] bg-[#2457FF] rounded-xl text-white font-bold text-[16px] max-[1200px]:text-[15px] max-[992px]:text-[13px] mt-5 hover:bg-[#1e4de0] transition duration-300">
+    class="w-full h-12 max-[1200px]:h-11 max-[992px]:h-10 bg-[#2457FF] rounded-xl text-white font-bold text-[16px] max-[1200px]:text-[15px] max-[992px]:text-[13px] mt-5 hover:bg-[#1e4de0] transition duration-300">
 
     درخواست رزرو
 
@@ -610,7 +610,7 @@ s/car-3.jpg"
             <img
             src="/src/images/car-5.jpg"
             alt=""
-            class="w-full h-[190px] max-[1400px]:h-[170px] max-[1200px]:h-[150px] max-[992px]:h-[130px] object-contain">
+            class="w-full h-[190px] max-[1400px]:h-[170px] max-[1200px]:h-[150px] max-[992px]:h-[130px] max-[767px]:h-[190px] object-contain">
             </div>
                <!-- نام خودرو -->
                <h3 class="text-[28px] max-[1400px]:text-[24px] max-[1200px]:text-[20px] max-[992px]:text-[17px] font-bold text-[#3d3d3d] text-right mt-6">
@@ -683,7 +683,7 @@ s/car-3.jpg"
 
        </div>
                <button
-    class="w-full h-[48px] max-[1200px]:h-[44px] max-[992px]:h-[40px] bg-[#2457FF] rounded-xl text-white font-bold text-[16px] max-[1200px]:text-[15px] max-[992px]:text-[13px] mt-5 hover:bg-[#1e4de0] transition duration-300">
+    class="w-full h-12 max-[1200px]:h-11 max-[992px]:h-10 bg-[#2457FF] rounded-xl text-white font-bold text-[16px] max-[1200px]:text-[15px] max-[992px]:text-[13px] mt-5 hover:bg-[#1e4de0] transition duration-300">
 
     درخواست رزرو
 
@@ -695,7 +695,7 @@ s/car-3.jpg"
             <img
             src="/src/images/car-2.jpg"
             alt=""
-            class="w-full h-[190px] max-[1400px]:h-[170px] max-[1200px]:h-[150px] max-[992px]:h-[130px] object-contain">
+            class="w-full h-[190px] max-[1400px]:h-[170px] max-[1200px]:h-[150px] max-[992px]:h-[130px] max-[767px]:h-[190px] object-contain">
             </div>
                <!-- نام خودرو -->
                <h3 class="text-[28px] max-[1400px]:text-[24px] max-[1200px]:text-[20px] max-[992px]:text-[17px] font-bold text-[#3d3d3d] text-right mt-6">
@@ -765,7 +765,7 @@ s/car-3.jpg"
 
        </div>
                <button
-    class="w-full h-[48px] max-[1200px]:h-[44px] max-[992px]:h-[40px] bg-[#2457FF] rounded-xl text-white font-bold text-[16px] max-[1200px]:text-[15px] max-[992px]:text-[13px] mt-5 hover:bg-[#1e4de0] transition duration-300">
+    class="w-full h-12 max-[1200px]:h-11 max-[992px]:h-10 bg-[#2457FF] rounded-xl text-white font-bold text-[16px] max-[1200px]:text-[15px] max-[992px]:text-[13px] mt-5 hover:bg-[#1e4de0] transition duration-300">
 
     درخواست رزرو
 
@@ -777,7 +777,7 @@ s/car-3.jpg"
             <img
             src="/src/images/car-4.jpg"
             alt=""
-            class="w-full h-[190px] max-[1400px]:h-[170px] max-[1200px]:h-[150px] max-[992px]:h-[130px] object-contain">
+            class="w-full h-[190px] max-[1400px]:h-[170px] max-[1200px]:h-[150px] max-[992px]:h-[130px] max-[767px]:h-[190px] object-contain">
             </div>
                <!-- نام خودرو -->
                <h3 class="text-[28px] max-[1400px]:text-[24px] max-[1200px]:text-[20px] max-[992px]:text-[17px]  font-bold
@@ -850,7 +850,7 @@ text-[#3d3d3d] text-right mt-6">
 
        </div>
                <button
-    class="w-full h-[48px] max-[1200px]:h-[44px] max-[992px]:h-[40px] bg-[#2457FF] rounded-xl text-white font-bold text-[16px] max-[1200px]:text-[15px] max-[992px]:text-[13px] mt-5 hover:bg-[#1e4de0] transition duration-300">
+    class="w-full h-12 max-[1200px]:h-11 max-[992px]:h-10 bg-[#2457FF] rounded-xl text-white font-bold text-[16px] max-[1200px]:text-[15px] max-[992px]:text-[13px] mt-5 hover:bg-[#1e4de0] transition duration-300">
 
     درخواست رزرو
 
@@ -862,7 +862,7 @@ text-[#3d3d3d] text-right mt-6">
             <img
             src="/src/images/car-6.jpg"
             alt=""
-            class="w-full h-[190px] max-[1400px]:h-[170px] max-[1200px]:h-[150px] max-[992px]:h-[130px] object-contain">
+            class="w-full h-[190px] max-[1400px]:h-[170px] max-[1200px]:h-[150px] max-[992px]:h-[130px] max-[767px]:h-[190px] object-contain">
             </div>
                <!-- نام خودرو -->
                <h3 class="text-[28px] max-[1400px]:text-[24px] max-[1200px]:text-[20px] max-[992px]:text-[17px] font-bold text-[#3d3d3d] text-right mt-6">
@@ -935,7 +935,7 @@ text-[#3d3d3d] text-right mt-6">
 
        </div>
                <button
-    class="w-full h-[48px] max-[1200px]:h-[44px] max-[992px]:h-[40px] bg-[#2457FF] rounded-xl text-white font-bold text-[16px] max-[1200px]:text-[15px] max-[992px]:text-[13px] mt-auto hover:bg-[#1e4de0] transition duration-300">
+    class="w-full h-12 max-[1200px]:h-11 max-[992px]:h-10 bg-[#2457FF] rounded-xl text-white font-bold text-[16px] max-[1200px]:text-[15px] max-[992px]:text-[13px] mt-auto hover:bg-[#1e4de0] transition duration-300">
 
     درخواست رزرو
 
@@ -948,7 +948,7 @@ text-[#3d3d3d] text-right mt-6">
        <!-- Footer -->
 <footer class="w-full bg-[#f8f8f8]  pt-4 pb-16">
 
-  <div class="w-[92%] max-w-[1500px] mx-auto bg-[#3a3d44] rounded-[28px] px-10 pt-10 pb-8">
+  <div class="w-[92%] max-w-375 mx-auto bg-[#3a3d44] rounded-[28px] px-10 pt-10 pb-8">
 
     <!-- Contact Box -->
     <div class="w-full border border-white/20 rounded-[18px] flex max-lg:flex-col items-center">
@@ -1019,7 +1019,7 @@ text-[#3d3d3d] text-right mt-6">
 
         <img
             src="/src/images/Logo (1).png"
-            class="w-[120px] mt-1"
+            class="w-30 mt-1"
             alt=""
         >
 
@@ -1070,7 +1070,7 @@ text-[#3d3d3d] text-right mt-6">
         <input
             type="email"
             placeholder="ایمیل خود را وارد کنید"
-            class="w-full h-[56px] rounded-xl bg-[#4a4d55] border border-white/10 outline-none pr-5 pl-24 text-white placeholder:text-gray-400"
+            class="w-full h-14 rounded-xl bg-[#4a4d55] border border-white/10 outline-none pr-5 pl-24 text-white placeholder:text-gray-400"
         >
 
         <button
@@ -1098,6 +1098,6 @@ text-[#3d3d3d] text-right mt-6">
 
 </div>
     </footer>
-     <script type="module" src="/src/js/main.js"></script>
+     <script type="module" src="./src/js/main.js"></script>
      </body>
 </html>
